@@ -10,9 +10,13 @@ In this project, a project was developed that emulates the communication between
 The data package includes:
 
 *4 bytes of satellite identification, indicating the start of data transmission to ground.
+
 *1 temperature byte, indicating the current temperature of the satellite.
+
 *1 byte reserved for future protocol expansion.
+
 *2 bytes of payload, which includes data such as atmospheric pressure.
+
 *1 validation byte, where it is verified that the data received is consistent with that sent by the satellite.
 
 ## Operation. 
